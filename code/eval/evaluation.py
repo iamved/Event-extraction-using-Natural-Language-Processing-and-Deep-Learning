@@ -19,9 +19,10 @@ Here **PREDS**.json is a json format with one dictionary per line and dicitionar
 
 For example,
 cat ../preds/m1.json | python evaluation.py
+
 '''
 
-
+# code
 from collections import defaultdict
 import sys,random,os
 import json
